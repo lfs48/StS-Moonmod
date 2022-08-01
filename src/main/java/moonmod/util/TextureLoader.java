@@ -52,7 +52,7 @@ public class TextureLoader {
 
     public static String getCardTextureString(final String cardName, final AbstractCard.CardColor color, final AbstractCard.CardType cardType)
     {
-        String textureString = resourcePath("cards/" + color.name().toLowerCase(Locale.ROOT) + "/" + cardType.name().toLowerCase(Locale.ROOT) + "/" + cardName.toLowerCase(Locale.ROOT) + ".png");
+        String textureString = resourcePath("cards/" + color.name().toLowerCase(Locale.ROOT) + "/" + cardType.name().toLowerCase(Locale.ROOT) + "/" + GeneralUtils.toSnakeCase(cardName.toLowerCase(Locale.ROOT)) + ".png");
 
         FileHandle h = Gdx.files.internal(textureString);
         if (!h.exists())

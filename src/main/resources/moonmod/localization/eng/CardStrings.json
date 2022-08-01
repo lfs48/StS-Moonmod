@@ -3,5 +3,10 @@
     "NAME": "Corruption",
     "DESCRIPTION": "At the start of your turn, lose 2 HP and gain 3 Strength.",
     "UPGRADE_DESCRIPTION": "Innate. NL At the start of your turn, lose 2 HP and gain 3 Strength."
+  },
+  "Demon Form": {
+    "NAME": "Demon Form",
+    "DESCRIPTION": "Ethereal. NL Skills cost 0. NL Whenever you play a Skill, Exhaust it.",
+    "UPGRADE_DESCRIPTION": "Skills cost 0. NL Whenever you play a Skill, Exhaust it."
   }
 }

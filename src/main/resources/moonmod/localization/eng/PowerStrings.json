@@ -6,5 +6,11 @@
       " HP and gain #b",
       " #yStrength"
     ]
+  },
+  "Corruption": {
+    "NAME": "Demon Form",
+    "DESCRIPTIONS": [
+      "#ySkills cost #b0. Whenever you play a #ySkill, #yExhaust it."
+    ]
   }
 }
