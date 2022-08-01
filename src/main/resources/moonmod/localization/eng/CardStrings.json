@@ -8,6 +8,10 @@
     "NAME": "Clash",
     "DESCRIPTION": "Costs 1 additional [R] for each non-Attack card in your hand. NL Deal !D! damage."
   },
+  "Cleave": {
+    "NAME": "Cleaving Strike",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies."
+  },
   "Corruption": {
     "NAME": "Corruption",
     "DESCRIPTION": "At the start of your turn, lose 2 HP and gain 3 Strength.",
@@ -21,5 +25,22 @@
   "Dropkick": {
     "NAME": "Dropkick",
     "DESCRIPTION": "Deal !D! damage. NL If the enemy has Vulnerable, NL gain [R] and NL draw 1 card."
+  },
+  "Heavy Blade": {
+    "NAME": "Heavy Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Strength affects this card !M! times.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Strength affects this card !M! times."
+  },
+  "Reckless Charge": {
+    "NAME": "Reckless Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Add a *Dazed into your discard pile."
+  },
+  "Sword Boomerang": {
+    "NAME": "Boomerang Strike",
+    "DESCRIPTION": "Deal !D! damage to a random enemy !M! times."
+  },
+  "Whirlwind": {
+    "NAME": "Whirlwind Strike",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies X times."
   }
 }
