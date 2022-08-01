@@ -1,4 +1,9 @@
 {
+  "Bloodletting": {
+    "NAME": "Bloodletting",
+    "DESCRIPTION": "Lose !M! HP. NL Gain [R] [R].",
+    "UPGRADE_DESCRIPTION": "Lose !M! HP. NL Gain [R] [R] [R]."
+  },
   "Clash": {
     "NAME": "Clash",
     "DESCRIPTION": "Costs 1 additional [R] for each non-Attack card in your hand. NL Deal !D! damage."
