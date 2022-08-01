@@ -1,4 +1,8 @@
 {
+  "Clash": {
+    "NAME": "Clash",
+    "DESCRIPTION": "Costs 1 additional [R] for each non-Attack card in your hand. NL Deal !D! damage."
+  },
   "Corruption": {
     "NAME": "Corruption",
     "DESCRIPTION": "At the start of your turn, lose 2 HP and gain 3 Strength.",
