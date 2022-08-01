@@ -50,22 +50,22 @@ public class TextureLoader {
         return textures.get(filePath);
     }
 
-    public static String getCardTextureString(final String cardName, final AbstractCard.CardType cardType)
+    public static String getCardTextureString(final String cardName, final AbstractCard.CardColor color, final AbstractCard.CardType cardType)
     {
-        String textureString = resourcePath("cards/" + cardType.name().toLowerCase(Locale.ROOT) + "/" + cardName + ".png");
+        String textureString = resourcePath("cards/" + color.name().toLowerCase(Locale.ROOT) + "/" + cardType.name().toLowerCase(Locale.ROOT) + "/" + cardName.toLowerCase(Locale.ROOT) + ".png");
 
         FileHandle h = Gdx.files.internal(textureString);
         if (!h.exists())
         {
             switch (cardType) {
                 case ATTACK:
-                    textureString = resourcePath("cards/attack/default.png");
+                textureString = resourcePath("cards/default/attack/default.png");
                     break;
                 case POWER:
-                    textureString = resourcePath("cards/power/default.png");
+                    textureString = resourcePath("cards/default/power/default.png");
                     break;
                 default:
-                    textureString = resourcePath("cards/skill/default.png");
+                textureString = resourcePath("cards/default/skill/default.png");
                     break;
             }
         }

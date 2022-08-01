@@ -46,7 +46,7 @@ public abstract class BaseCard extends CustomCard {
 
     public BaseCard(String baseID, int cost, CardType cardType, CardTarget target, CardRarity rarity, CardColor color)
     {
-        super(makeID(baseID), "", getCardTextureString(baseID, cardType), cost, "", cardType, color, rarity, target);
+        super(makeID(baseID), "", getCardTextureString(baseID, color, cardType), cost, "", cardType, color, rarity, target);
 
         loadStrings();
 
@@ -69,7 +69,7 @@ public abstract class BaseCard extends CustomCard {
 
     public BaseCard(String cardName, int cost, CardType cardType, CardTarget target, CardRarity rarity, CardColor color, boolean upgradesDescription)
     {
-        super(makeID(cardName), "", getCardTextureString(cardName, cardType), cost, "", cardType, color, rarity, target);
+        super(makeID(cardName), "", getCardTextureString(cardName, color, cardType), cost, "", cardType, color, rarity, target);
 
         loadStrings();
 

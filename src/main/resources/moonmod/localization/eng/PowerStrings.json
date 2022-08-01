@@ -1,8 +1,10 @@
 {
-  "${modID}:PowerID": {
-    "NAME": "Ultimate Power",
+  "CorruptionStr": {
+    "NAME": "Corruption",
     "DESCRIPTIONS": [
-      "You are Very Cool and Strong."
+      "At the start of your turn, lose #b",
+      " HP and gain #b",
+      " #yStrength"
     ]
   }
 }

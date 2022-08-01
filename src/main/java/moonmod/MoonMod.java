@@ -1,7 +1,9 @@
 package moonmod;
 
+import basemod.AutoAdd;
 import basemod.BaseMod;
 import basemod.interfaces.*;
+import moonmod.cards.BaseCard;
 import moonmod.util.GeneralUtils;
 import moonmod.util.KeywordInfo;
 import moonmod.util.TextureLoader;
@@ -27,6 +29,7 @@ import java.util.Set;
 
 @SpireInitializer
 public class MoonMod implements
+        EditCardsSubscriber,
         EditStringsSubscriber,
         EditKeywordsSubscriber,
         PostInitializeSubscriber {
@@ -39,7 +42,7 @@ public class MoonMod implements
     //This is used to prefix the IDs of various objects like cards and relics,
     //to avoid conflicts between different mods using the same name for things.
     public static String makeID(String id) {
-        return modID + ":" + id;
+        return id;
     }
 
     //This will be called by ModTheSpire because of the @SpireInitializer annotation at the top of the class.
@@ -153,6 +156,13 @@ public class MoonMod implements
         return resourcesFolder + "/relics/" + file;
     }
 
+    @Override
+    public void receiveEditCards() {
+        new AutoAdd(modID)
+        .packageFilter(BaseCard.class)
+        .setDefaultSeen(true)
+        .cards();
+    }
 
     //This determines the mod's ID based on information stored by ModTheSpire.
     private static void loadModInfo() {
