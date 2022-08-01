@@ -31,6 +31,10 @@
     "DESCRIPTION": "Deal !D! damage. NL Strength affects this card !M! times.",
     "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Strength affects this card !M! times."
   },
+  "Rampage": {
+    "NAME": "Rampage",
+    "DESCRIPTION": "Deal !D! damage. NL Increase this damage by !M! this combat. NL Increases by more each time it's used."
+  },
   "Reckless Charge": {
     "NAME": "Reckless Strike",
     "DESCRIPTION": "Deal !D! damage. NL Add a *Dazed into your discard pile."
