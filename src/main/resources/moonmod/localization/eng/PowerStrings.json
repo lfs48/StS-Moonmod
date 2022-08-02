@@ -1,4 +1,11 @@
 {
+  "Berserk": {
+    "NAME": "Berserk",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain ",
+      " Vulnerable."
+    ]
+  },
   "CorruptionStr": {
     "NAME": "Corruption",
     "DESCRIPTIONS": [

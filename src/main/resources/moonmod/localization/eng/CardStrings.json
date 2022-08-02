@@ -1,4 +1,8 @@
 {
+  "Berserk": {
+    "NAME": "Berserk",
+    "DESCRIPTION": "Gain !M! Strength and NL 1 Vulnerable. NL At the start of each of your turns, gain NL 1 Vulnerable."
+  },
   "Bloodletting": {
     "NAME": "Bloodletting",
     "DESCRIPTION": "Lose !M! HP. NL Gain [R] [R].",
