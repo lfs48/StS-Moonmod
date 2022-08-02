@@ -1,4 +1,4 @@
-package moonmod.cards.red;
+package moonmod.cards.red.power;
 
 import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;

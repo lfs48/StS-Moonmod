@@ -1,34 +1,37 @@
-package moonmod.cards.red;
+package moonmod.cards.red.power;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
-import moonmod.actions.LimitBreakAction;
+import moonmod.actions.BerserkAction;
 import moonmod.cards.BaseCard;
 import moonmod.util.CardInfo;
 
-public class LimitBreak extends BaseCard {
+public class Berserk extends BaseCard {
 
-    public static final String ID = "Limit Break";
+    public static final String ID = "Berserk";
     public static final int COST = 1;
+    public static final int UPG_COST = 0;
+    public static final int BASE_MAGIC = 5;
 
     private final static CardInfo cardInfo = new CardInfo(
         ID, 
         COST, 
-        CardType.SKILL, 
+        CardType.POWER, 
         CardTarget.SELF, 
         CardRarity.RARE, 
         CardColor.RED
     );
   
-    public LimitBreak() {
+    public Berserk() {
         super(cardInfo);
-        this.setExhaust(true);
+        this.setMagic(BASE_MAGIC);
+        this.setCostUpgrade(UPG_COST);
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot((AbstractGameAction)new LimitBreakAction(this.upgraded));
+        addToBot((AbstractGameAction)new BerserkAction(this.magicNumber));
     }
 
 }
