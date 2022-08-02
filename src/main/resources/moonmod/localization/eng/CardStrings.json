@@ -61,6 +61,10 @@
     "NAME": "Reckless Strike",
     "DESCRIPTION": "Deal !D! damage. NL Add a *Dazed into your discard pile."
   },
+  "Sentinel": {
+    "NAME": "Sentinel",
+    "DESCRIPTION": "Gain !B! Block. NL If this card is Exhausted, gain NL !B! Block."
+  },
   "Sever Soul": {
     "NAME": "Sever Soul",
     "DESCRIPTION": "Exhaust a card in your hand. Deal damage equal to !M! times that card's cost."
