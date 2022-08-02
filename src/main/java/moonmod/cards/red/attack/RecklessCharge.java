@@ -17,7 +17,7 @@ public class RecklessCharge extends BaseCard {
   public static final String ID = "Reckless Charge";
   public static final int COST = 0;
   public static final int BASE_DMG = 7;
-  public static final int UPG_DMG = 10;
+  public static final int UPG_DMG = 3;
 
   private final static CardInfo cardInfo = new CardInfo(
       ID, 
