@@ -37,6 +37,7 @@ public class Intimidate extends BaseCard {
   public Intimidate() {
     super(cardInfo);
     this.setMagic(BASE_MAGIC, UPG_MAGIC);
+    this.setExhaust(true);
   }
   
   public void use(AbstractPlayer p, AbstractMonster m) {
