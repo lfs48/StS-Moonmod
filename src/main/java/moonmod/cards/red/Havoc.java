@@ -31,7 +31,7 @@ public class Havoc extends BaseCard {
     }
   
     public void use(AbstractPlayer p, AbstractMonster m) {
-        int times = 0;
+        int times = 1;
         if (this.upgraded) 
             times++;
         for (int i = 0; i < times; i++) {
@@ -39,9 +39,6 @@ public class Havoc extends BaseCard {
                 (AbstractCreature)(AbstractDungeon.getCurrRoom()).monsters.getRandomMonster(null, true, AbstractDungeon.cardRandomRng), true
             ));
         }
-        addToBot((AbstractGameAction)new PlayTopCardAction(
-            (AbstractCreature)(AbstractDungeon.getCurrRoom()).monsters.getRandomMonster(null, true, AbstractDungeon.cardRandomRng), true
-        ));
     }
 
 }
