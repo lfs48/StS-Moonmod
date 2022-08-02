@@ -70,7 +70,7 @@
     "DESCRIPTION": "Gain !B! Block. NL If this card is Exhausted, gain NL !B! Block."
   },
   "Sever Soul": {
-    "NAME": "Sever Soul",
+    "NAME": "Soul-Fueled Slash",
     "DESCRIPTION": "Exhaust a card in your hand. Deal damage equal to !M! times that card's cost."
   },
   "Sword Boomerang": {
