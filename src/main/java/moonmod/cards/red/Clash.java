@@ -27,7 +27,7 @@ public class Clash extends BaseCard {
         COST, 
         CardType.ATTACK, 
         CardTarget.ENEMY, 
-        CardRarity.UNCOMMON, 
+        CardRarity.COMMON, 
         CardColor.RED
     );
   
