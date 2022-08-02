@@ -6,12 +6,20 @@
       " Vulnerable."
     ]
   },
-  "CorruptionStr": {
+  "CorruptionV2": {
     "NAME": "Corruption",
     "DESCRIPTIONS": [
-      "At the start of your turn, lose #b",
-      " HP and gain #b",
-      " #yStrength"
+      "At the start of your turn, exhaust ",
+      " random card and gain [R] .",
+      " random cards and gain "
+    ]
+  },
+  "CorruptionV2Upg": {
+    "NAME": "Corruption+",
+    "DESCRIPTIONS": [
+      "At the start of your turn, exhaust ",
+      " card and gain [R] .",
+      " cards and gain "
     ]
   },
   "Corruption": {
