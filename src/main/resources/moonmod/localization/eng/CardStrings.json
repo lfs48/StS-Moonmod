@@ -26,6 +26,10 @@
     "NAME": "Dropkick",
     "DESCRIPTION": "Deal !D! damage. NL If the enemy has Vulnerable, NL gain [R] and NL draw 1 card."
   },
+  "Flex": {
+    "NAME": "Flex",
+    "DESCRIPTION": "Gain !M! Strength. NL At the end of this turn, lose !M! Strength."
+  },
   "Heavy Blade": {
     "NAME": "Heavy Strike",
     "DESCRIPTION": "Deal !D! damage. NL Strength affects this card !M! times.",
