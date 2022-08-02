@@ -1,9 +1,7 @@
 package moonmod.cards.red;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.common.PlayTopCardAction;
-import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -27,10 +25,10 @@ public class Havoc extends BaseCard {
         CardColor.RED
     );
   
-  public Havoc() {
-    super(cardInfo);
-    this.setDamage(BASE_DMG, UPG_DMG);
-  }
+    public Havoc() {
+        super(cardInfo);
+        this.setDamage(BASE_DMG, UPG_DMG);
+    }
   
     public void use(AbstractPlayer p, AbstractMonster m) {
         int times = 0;

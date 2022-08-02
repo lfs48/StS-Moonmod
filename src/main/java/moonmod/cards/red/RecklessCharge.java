@@ -3,7 +3,6 @@ package moonmod.cards.red;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInDiscardAction;
-import com.megacrit.cardcrawl.actions.common.MakeTempCardInDrawPileAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.cards.status.Dazed;
@@ -15,19 +14,19 @@ import moonmod.util.CardInfo;
 
 public class RecklessCharge extends BaseCard {
 
-    public static final String ID = "Reckless Charge";
-    public static final int COST = 0;
-    public static final int BASE_DMG = 7;
-    public static final int UPG_DMG = 10;
+  public static final String ID = "Reckless Charge";
+  public static final int COST = 0;
+  public static final int BASE_DMG = 7;
+  public static final int UPG_DMG = 10;
 
-    private final static CardInfo cardInfo = new CardInfo(
-        ID, 
-        COST, 
-        CardType.ATTACK, 
-        CardTarget.ENEMY, 
-        CardRarity.UNCOMMON, 
-        CardColor.RED
-    );
+  private final static CardInfo cardInfo = new CardInfo(
+      ID, 
+      COST, 
+      CardType.ATTACK, 
+      CardTarget.ENEMY, 
+      CardRarity.UNCOMMON, 
+      CardColor.RED
+  );
   
   public RecklessCharge() {
     super(cardInfo);
