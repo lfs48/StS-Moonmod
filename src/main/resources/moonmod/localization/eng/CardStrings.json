@@ -18,8 +18,8 @@
   },
   "Corruption": {
     "NAME": "Corruption",
-    "DESCRIPTION": "At the start of your turn, exhaust a random card and gain [R].",
-    "UPGRADE_DESCRIPTION": "At the start of your turn, exhaust a card and gain [R]."
+    "DESCRIPTION": "At the start of your turn, Exhaust a random card NL and gain [R].",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, Exhaust a card and gain [R]."
   },
   "Demon Form": {
     "NAME": "Demon Form",

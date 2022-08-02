@@ -22,8 +22,8 @@ public class CorruptionV2Power extends BasePower {
     public void updateDescription() {
         StringBuilder sb = new StringBuilder();
         sb.append(DESCRIPTIONS[0]);
-        sb.append(this.amount);
         if (this.amount > 1) {
+            sb.append(this.amount);
             sb.append(DESCRIPTIONS[2]);
             for (int i = 0; i < this.amount; i++)
                 sb.append("[R] "); 

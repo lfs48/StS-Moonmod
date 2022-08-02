@@ -9,16 +9,16 @@
   "CorruptionV2": {
     "NAME": "Corruption",
     "DESCRIPTIONS": [
-      "At the start of your turn, exhaust ",
-      " random card and gain [R] .",
+      "At the start of your turn, #yExhaust ",
+      "a random card and gain [R] .",
       " random cards and gain "
     ]
   },
   "CorruptionV2Upg": {
     "NAME": "Corruption+",
     "DESCRIPTIONS": [
-      "At the start of your turn, exhaust ",
-      " card and gain [R] .",
+      "At the start of your turn, #yExhaust ",
+      "a card and gain [R] .",
       " cards and gain "
     ]
   },
