@@ -30,6 +30,11 @@
     "NAME": "Flex",
     "DESCRIPTION": "Gain !M! Strength. NL At the end of this turn, lose !M! Strength."
   },
+  "Havoc": {
+    "NAME": "Havoc",
+    "DESCRIPTION": "Play the top card of your draw pile. NL Exhaust.",
+    "UPGRADE_DESCRIPTION":  "Play the top two cards of your draw pile. NL Exhaust."
+  },
   "Heavy Blade": {
     "NAME": "Heavy Strike",
     "DESCRIPTION": "Deal !D! damage. NL Strength affects this card !M! times.",
