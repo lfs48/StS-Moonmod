@@ -36,6 +36,10 @@
     "DESCRIPTION": "Deal !D! damage. NL Strength affects this card !M! times.",
     "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Strength affects this card !M! times."
   },
+  "Immolate": {
+    "NAME": "Immolate",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Add two *Burns into your discard pile."
+  },
   "Infernal Blade": {
     "NAME": "Infernal Blade",
     "DESCRIPTION": "Add a random Attack into your hand. NL It costs 0 this combat. NL Exhaust."
