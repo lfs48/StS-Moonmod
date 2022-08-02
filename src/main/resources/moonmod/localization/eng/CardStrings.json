@@ -48,6 +48,11 @@
     "NAME": "Intimidate",
     "DESCRIPTION": "Apply !M! Weak to ALL enemies. NL ALL enemies lose !M! Strength for 1 turn. NL Exhaust."
   },
+  "Limit Break": {
+    "NAME": "Limit Break",
+    "DESCRIPTION": "Double your Strength. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Triple your Strength. NL Exhaust."
+  },
   "Rampage": {
     "NAME": "Rampage",
     "DESCRIPTION": "Deal !D! damage. NL Increase this damage by !M! this combat. NL Increases by more each time it's used."
