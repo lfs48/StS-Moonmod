@@ -32,7 +32,7 @@
   },
   "Havoc": {
     "NAME": "Havoc",
-    "DESCRIPTION": "Play the top card of your draw pile twice and Exhaust it."
+    "DESCRIPTION": "Play the top card from your discard pile and Exhaust it."
   },
   "Heavy Blade": {
     "NAME": "Heavy Strike",
