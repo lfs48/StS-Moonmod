@@ -13,8 +13,6 @@ public class Havoc extends BaseCard {
 
     public static final String ID = "Havoc";
     public static final int COST = 0;
-    public static final int BASE_DMG = 1;
-    public static final int UPG_DMG = 1;
 
     private final static CardInfo cardInfo = new CardInfo(
         ID, 
@@ -27,7 +25,7 @@ public class Havoc extends BaseCard {
   
     public Havoc() {
         super(cardInfo);
-        this.setDamage(BASE_DMG, UPG_DMG);
+        this.setExhaust(true);
     }
   
     public void use(AbstractPlayer p, AbstractMonster m) {
