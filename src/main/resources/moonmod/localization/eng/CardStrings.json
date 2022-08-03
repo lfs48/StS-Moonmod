@@ -10,7 +10,7 @@
   },
   "Clash": {
     "NAME": "Clash",
-    "DESCRIPTION": "Costs 1 additional [R] for each non-Attack card in your hand. NL Deal !D! damage."
+    "DESCRIPTION": "Costs 0 if all cards in your hand are Attacks. NL Deal !D! damage."
   },
   "Cleave": {
     "NAME": "Cleaving Strike",
@@ -32,8 +32,7 @@
   },
   "Havoc": {
     "NAME": "Havoc",
-    "DESCRIPTION": "Play the top card of your draw pile. NL Exhaust.",
-    "UPGRADE_DESCRIPTION":  "Play the top two cards of your draw pile. NL Exhaust."
+    "DESCRIPTION": "Play the top card of your draw pile twice and Exhaust it."
   },
   "Heavy Blade": {
     "NAME": "Heavy Strike",
