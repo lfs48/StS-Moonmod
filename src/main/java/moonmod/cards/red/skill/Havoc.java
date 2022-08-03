@@ -12,7 +12,9 @@ import moonmod.util.CardInfo;
 public class Havoc extends BaseCard {
 
     public static final String ID = "Havoc";
-    public static final int COST = 0;
+    public static final int COST = 1;
+    public static final int UPG_COST = 0;
+    public static final int BASE_MAGIC = 2;
 
     private final static CardInfo cardInfo = new CardInfo(
         ID, 
@@ -25,14 +27,13 @@ public class Havoc extends BaseCard {
   
     public Havoc() {
         super(cardInfo);
+        this.setMagic(BASE_MAGIC);
+        this.setCostUpgrade(UPG_COST);
         this.setExhaust(true);
     }
   
     public void use(AbstractPlayer p, AbstractMonster m) {
-        int times = 1;
-        if (this.upgraded) 
-            times++;
-        for (int i = 0; i < times; i++) {
+        for (int i = 0; i < this.magicNumber; i++) {
             addToBot((AbstractGameAction)new PlayTopCardAction(
                 (AbstractCreature)(AbstractDungeon.getCurrRoom()).monsters.getRandomMonster(null, true, AbstractDungeon.cardRandomRng), true
             ));
