@@ -27,5 +27,12 @@
     "DESCRIPTIONS": [
       "#ySkills cost #b0. Whenever you play a #ySkill, #yExhaust it."
     ]
+  },
+  "Juggernaut": {
+    "NAME": "Juggernaut",
+    "DESCRIPTIONS": [
+      "Whenever you gain #yBlock, deal #b",
+      " damage to ALL enemies."
+    ]
   }
 }

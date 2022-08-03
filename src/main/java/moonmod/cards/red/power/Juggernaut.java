@@ -6,9 +6,9 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import com.megacrit.cardcrawl.powers.JuggernautPower;
 
 import moonmod.cards.BaseCard;
+import moonmod.powers.red.JuggernautPower;
 import moonmod.util.CardInfo;
 
 public class Juggernaut extends BaseCard {

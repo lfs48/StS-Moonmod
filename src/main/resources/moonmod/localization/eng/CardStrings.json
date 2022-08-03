@@ -51,6 +51,10 @@
     "NAME": "Intimidate",
     "DESCRIPTION": "ALL enemies lose !M! Strength for 1 turn. NL Apply !M! Weak to ALL enemies. NL Exhaust."
   },
+  "Juggernaut": {
+    "NAME": "Juggernaut",
+    "DESCRIPTION": "Whenever you gain Block, deal !M! damage to ALL enemies."
+  },
   "Limit Break": {
     "NAME": "Limit Break",
     "DESCRIPTION": "Double your Strength. NL Exhaust.",
