@@ -16,6 +16,7 @@ public class Rampage extends BaseCard {
     public static final String ID = "Rampage";
     public static final int COST = 1;
     public static final int BASE_DMG = 8;
+    public static final int UPG_DMG = 2;
     public static final int BASE_MAGIC = 5;
     public static final int UPG_MAGIC = 3;
 
@@ -32,7 +33,7 @@ public class Rampage extends BaseCard {
   
     public Rampage() {
         super(cardInfo);
-        this.setDamage(BASE_DMG);
+        this.setDamage(BASE_DMG, UPG_DMG);
         this.setMagic(BASE_MAGIC, UPG_MAGIC);
         this.timesUsed = 0;
     }
