@@ -12,7 +12,7 @@ import moonmod.powers.BasePower;
 public class BerserkPower extends BasePower {
 
     public static final String POWER_ID = "Berserk";
-    private static final AbstractPower.PowerType TYPE = AbstractPower.PowerType.BUFF;
+    private static final AbstractPower.PowerType TYPE = AbstractPower.PowerType.DEBUFF;
     private static final boolean TURN_BASED = false;
 
     public BerserkPower(AbstractCreature owner, int amount) {
