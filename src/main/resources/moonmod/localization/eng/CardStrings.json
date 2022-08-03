@@ -1,7 +1,7 @@
 {
   "Berserk": {
     "NAME": "Berserk",
-    "DESCRIPTION": "Gain !M! Strength and NL 1 Vulnerable. NL At the start of each of your turns, gain NL 1 Vulnerable."
+    "DESCRIPTION": "Gain !M! Strength and NL 1 Vulnerable. NL At the start of your turn, gain 1 Vulnerable."
   },
   "Bloodletting": {
     "NAME": "Bloodletting",
@@ -50,7 +50,7 @@
   },
   "Intimidate": {
     "NAME": "Intimidate",
-    "DESCRIPTION": "Apply !M! Weak to ALL enemies. NL ALL enemies lose !M! Strength for 1 turn. NL Exhaust."
+    "DESCRIPTION": "ALL enemies lose !M! Strength for 1 turn. NL Apply !M! Weak to ALL enemies. NL Exhaust."
   },
   "Limit Break": {
     "NAME": "Limit Break",
@@ -70,8 +70,8 @@
     "DESCRIPTION": "Gain !B! Block. NL If this card is Exhausted, gain NL !B! Block."
   },
   "Sever Soul": {
-    "NAME": "Soul-Fueled Slash",
-    "DESCRIPTION": "Exhaust a card in your hand. Deal damage equal to !M! times that card's cost."
+    "NAME": "Soulcharged Slash",
+    "DESCRIPTION": "Exhaust 1 card. NL Deal damage equal to !M! times its cost."
   },
   "Sword Boomerang": {
     "NAME": "Boomerang Strike",
