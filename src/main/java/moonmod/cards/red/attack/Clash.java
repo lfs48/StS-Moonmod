@@ -18,9 +18,11 @@ import moonmod.util.CardInfo;
 public class Clash extends BaseCard {
 
     public static final String ID = "Clash";
-    public static final int COST = 0;
-    public static final int BASE_DMG = 9;
-    public static final int UPG_DMG = 3;
+    public static final int COST = 2;
+    public static final int BASE_DMG = 14;
+    public static final int UPG_DMG = 4;
+    
+    private boolean costChangedByOwnEffect;
 
     private final static CardInfo cardInfo = new CardInfo(
         ID, 
@@ -34,6 +36,7 @@ public class Clash extends BaseCard {
     public Clash() {
         super(cardInfo);
         this.setDamage(BASE_DMG, UPG_DMG);
+        this.costChangedByOwnEffect = false;
     }
   
   public void use(AbstractPlayer p, AbstractMonster m) {
@@ -45,14 +48,21 @@ public class Clash extends BaseCard {
         applyPowers();
     }
 
+
+
     public void applyPowers() {
-        int count = 0;
+        boolean allCardsAreAttacks = true;
         for (AbstractCard c : AbstractDungeon.player.hand.group) {
             if (c.type != CardType.ATTACK) {
-                count++;
+                allCardsAreAttacks = false;
             }
         }
-        setCostForTurn(count);
+        if (allCardsAreAttacks && !freeToPlay()) {
+            this.freeToPlayOnce = true;
+            this.costChangedByOwnEffect = true;
+        } else if (!allCardsAreAttacks && freeToPlay() && costChangedByOwnEffect)  {
+            this.freeToPlayOnce = false;
+        }
     }
 
 }
