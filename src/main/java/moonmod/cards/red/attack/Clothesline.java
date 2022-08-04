@@ -17,7 +17,7 @@ public class Clothesline extends BaseCard {
 
     public static final String ID = "Clothesline";
     public static final int COST = 2;
-    public static final int BASE_DMG = 14;
+    public static final int BASE_DMG = 13;
     public static final int UPG_DMG = 3;
     public static final int BASE_MAGIC = 2;
     public static final int UPG_MAGIC = 1;
