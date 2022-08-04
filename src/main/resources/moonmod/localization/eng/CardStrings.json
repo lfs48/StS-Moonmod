@@ -83,5 +83,9 @@
   "Whirlwind": {
     "NAME": "Whirlwind Strike",
     "DESCRIPTION": "Deal !D! damage to ALL enemies X times."
+  },
+  "Wild Strike": {
+    "NAME": "Wild Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Put a *Wound on the bottom of your draw pile."
   }
 }
