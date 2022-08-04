@@ -18,7 +18,7 @@ public class CorruptionV2Power extends BasePower {
         super(POWER_ID, TYPE, TURN_BASED, owner, amount);
         this.updateDescription();
     }
-  
+
     public void updateDescription() {
         StringBuilder sb = new StringBuilder();
         sb.append(DESCRIPTIONS[0]);
@@ -36,7 +36,7 @@ public class CorruptionV2Power extends BasePower {
   
     public void atStartOfTurnPostDraw() {
         flash();
-        addToBot((AbstractGameAction)new ExhaustAction(this.amount, true, false, false));
+        addToBot((AbstractGameAction)new ExhaustAction(this.amount, false, false, false));
         addToBot((AbstractGameAction)new GainEnergyAction(this.amount));
     }
 

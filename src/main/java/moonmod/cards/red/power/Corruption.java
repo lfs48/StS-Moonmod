@@ -15,7 +15,6 @@ import com.megacrit.cardcrawl.vfx.combat.VerticalAuraEffect;
 
 import moonmod.cards.BaseCard;
 import moonmod.powers.red.CorruptionV2Power;
-import moonmod.powers.red.CorruptionV2UpgPower;
 import moonmod.util.CardInfo;
 
 public class Corruption extends BaseCard {
@@ -37,6 +36,7 @@ public class Corruption extends BaseCard {
     public Corruption() {
         super(cardInfo);
         this.setMagic(BASE_MAGIC);
+        this.setInnate(false, true);
     }
   
     public void use(AbstractPlayer p, AbstractMonster m) {
@@ -45,9 +45,6 @@ public class Corruption extends BaseCard {
         addToBot((AbstractGameAction)new VFXAction((AbstractCreature)p, (AbstractGameEffect)new VerticalAuraEffect(Color.PURPLE, p.hb.cX, p.hb.cY), 0.33F));
         addToBot((AbstractGameAction)new VFXAction((AbstractCreature)p, (AbstractGameEffect)new VerticalAuraEffect(Color.CYAN, p.hb.cX, p.hb.cY), 0.0F));
         addToBot((AbstractGameAction)new VFXAction((AbstractCreature)p, (AbstractGameEffect)new BorderLongFlashEffect(Color.MAGENTA), 0.0F, true));
-        if (this.upgraded) 
-            addToBot((AbstractGameAction)new ApplyPowerAction((AbstractCreature)p, (AbstractCreature)p, (AbstractPower)new CorruptionV2UpgPower((AbstractCreature)p, this.magicNumber), this.magicNumber));
-        else
-            addToBot((AbstractGameAction)new ApplyPowerAction((AbstractCreature)p, (AbstractCreature)p, (AbstractPower)new CorruptionV2Power((AbstractCreature)p, this.magicNumber), this.magicNumber));      }
+        addToBot((AbstractGameAction)new ApplyPowerAction((AbstractCreature)p, (AbstractCreature)p, (AbstractPower)new CorruptionV2Power((AbstractCreature)p, this.magicNumber), this.magicNumber));      }
 
 }
