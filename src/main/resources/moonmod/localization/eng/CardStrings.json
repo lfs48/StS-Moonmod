@@ -5,8 +5,8 @@
   },
   "Bloodletting": {
     "NAME": "Bloodletting",
-    "DESCRIPTION": "Lose !M! HP. NL Gain [R] [R].",
-    "UPGRADE_DESCRIPTION": "Lose !M! HP. NL Gain [R] [R] [R]."
+    "DESCRIPTION": "Lose 2 HP. NL Gain [R] [R].",
+    "UPGRADE_DESCRIPTION": "Lose 2 HP. NL Gain [R] [R] [R]."
   },
   "Clash": {
     "NAME": "Clash",

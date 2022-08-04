@@ -13,10 +13,9 @@ public class Bloodletting extends BaseCard {
 
     public static final String ID = "Bloodletting";
     public static final int COST = 0;
-    public static final int BASE_HP_LOSS = 3;
-    public static final int UPG_HP_LOSS = -1;
-    public static final int BASE_E_GAIN = 2;
-    public static final int UPG_E_GAIN = 1;
+    public static final int HP_LOSS = 2;
+    public static final int BASE_MAGIC = 2;
+    public static final int UPG_MAGIC = 1;
 
     public int eGain;
 
@@ -31,19 +30,12 @@ public class Bloodletting extends BaseCard {
   
   public Bloodletting() {
     super(cardInfo);
-    this.eGain = BASE_E_GAIN;
-    this.setMagic(BASE_HP_LOSS, UPG_HP_LOSS);
+    this.setMagic(BASE_MAGIC, UPG_MAGIC);
   }
   
   public void use(AbstractPlayer p, AbstractMonster m) {
-    addToBot((AbstractGameAction)new LoseHPAction((AbstractCreature)p, (AbstractCreature)p, this.magicNumber));
-    addToBot((AbstractGameAction)new GainEnergyAction(this.eGain));
-  }
-
-  @Override
-  public void upgrade() {
-    super.upgrade();
-    this.eGain += UPG_E_GAIN;
+    addToBot((AbstractGameAction)new LoseHPAction((AbstractCreature)p, (AbstractCreature)p, HP_LOSS));
+    addToBot((AbstractGameAction)new GainEnergyAction(this.magicNumber));
   }
 
 }
