@@ -80,6 +80,11 @@
     "NAME": "Boomerang Strike",
     "DESCRIPTION": "Deal !D! damage to a random enemy !M! times."
   },
+  "Warcry": {
+    "NAME": "Lead the Charge",
+    "DESCRIPTION": "Draw !M! cards. Put a *Dazed on top of your draw pile.",
+    "UPGRADE_DESCRIPTION": "Draw !M! cards. Shuffle a *Dazed into your draw pile."
+  },
   "Whirlwind": {
     "NAME": "Whirlwind Strike",
     "DESCRIPTION": "Deal !D! damage to ALL enemies X times."
