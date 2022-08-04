@@ -31,6 +31,7 @@ public class WildStrike extends BaseCard {
     public WildStrike() {
         super(cardInfo);
         this.setDamage(BASE_DMG, UPG_DMG);
+        this.cardsToPreview = (AbstractCard)new Wound();
     }
   
     public void use(AbstractPlayer p, AbstractMonster m) {
