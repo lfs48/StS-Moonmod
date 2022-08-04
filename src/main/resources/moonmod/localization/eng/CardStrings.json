@@ -45,7 +45,7 @@
   },
   "Infernal Blade": {
     "NAME": "Infernal Blade",
-    "DESCRIPTION": "Add a random Attack into your hand. NL It costs 0 this combat. NL Exhaust."
+    "DESCRIPTION": "Choose 1 of 3 random attacks to add to your hand. It costs 0 this turn. NL Exhaust."
   },
   "Intimidate": {
     "NAME": "Intimidate",

@@ -1,12 +1,11 @@
-package moonmod.cards.red.attack;
+package moonmod.cards.red.skill;
 
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
-import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+
+import moonmod.actions.ChooseFreeCardAction;
 import moonmod.cards.BaseCard;
 import moonmod.util.CardInfo;
 
@@ -32,9 +31,7 @@ public class InfernalBlade extends BaseCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        AbstractCard c = AbstractDungeon.returnTrulyRandomCardInCombat(AbstractCard.CardType.ATTACK).makeCopy();
-        c.modifyCostForCombat(-9);
-        addToBot((AbstractGameAction)new MakeTempCardInHandAction(c, true));
+        addToBot((AbstractGameAction)new ChooseFreeCardAction(CardType.ATTACK, false, 1));
     }
 
 }
