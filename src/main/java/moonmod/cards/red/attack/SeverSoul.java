@@ -2,14 +2,11 @@ package moonmod.cards.red.attack;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
-import com.megacrit.cardcrawl.actions.common.ModifyDamageAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-
-import moonmod.actions.SeverSoulAction;
 import moonmod.cards.BaseCard;
 import moonmod.util.CardInfo;
 
@@ -23,12 +20,12 @@ public class SeverSoul extends BaseCard {
     public static final int UPG_DMG = 4;
 
     private final static CardInfo cardInfo = new CardInfo(
-        ID, 
-        COST, 
-        CardType.ATTACK, 
-        CardTarget.ENEMY, 
-        CardRarity.UNCOMMON, 
-        CardColor.RED
+      ID, 
+      COST, 
+      CardType.ATTACK, 
+      CardTarget.ENEMY, 
+      CardRarity.UNCOMMON, 
+      CardColor.RED
     );
   
   public SeverSoul() {
@@ -52,7 +49,6 @@ public class SeverSoul extends BaseCard {
   public void use(AbstractPlayer p, AbstractMonster m) {
     DamageInfo damageInfo = new DamageInfo((AbstractCreature)p, this.damage, this.damageTypeForTurn);
     addToBot((AbstractGameAction)new DamageAction((AbstractCreature)m, damageInfo, AbstractGameAction.AttackEffect.FIRE));
-
   }
 
 }

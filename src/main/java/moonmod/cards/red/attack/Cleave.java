@@ -16,19 +16,19 @@ import moonmod.util.CardInfo;
 
 public class Cleave extends BaseCard {
 
-    public static final String ID = "Cleave";
-    public static final int COST = 1;
-    public static final int BASE_DMG = 8;
-    public static final int UPG_DMG = 3;
+  public static final String ID = "Cleave";
+  public static final int COST = 1;
+  public static final int BASE_DMG = 8;
+  public static final int UPG_DMG = 3;
 
-    private final static CardInfo cardInfo = new CardInfo(
-        ID, 
-        COST, 
-        CardType.ATTACK, 
-        CardTarget.ALL_ENEMY, 
-        CardRarity.COMMON, 
-        CardColor.RED
-    );
+  private final static CardInfo cardInfo = new CardInfo(
+    ID, 
+    COST, 
+    CardType.ATTACK, 
+    CardTarget.ALL_ENEMY, 
+    CardRarity.COMMON, 
+    CardColor.RED
+  );
   
   public Cleave() {
     super(cardInfo);
