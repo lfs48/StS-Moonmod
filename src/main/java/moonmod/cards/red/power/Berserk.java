@@ -13,7 +13,7 @@ public class Berserk extends BaseCard {
     public static final String ID = "Berserk";
     public static final int COST = 0;
     public static final int BASE_MAGIC = 5;
-    public static final int UPG_MAGIC = 1;
+    public static final int UPG_MAGIC = 3;
 
     private final static CardInfo cardInfo = new CardInfo(
         ID, 
