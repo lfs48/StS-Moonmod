@@ -12,21 +12,21 @@ import moonmod.util.CardInfo;
 
 public class SeverSoul extends BaseCard {
 
-    public static final String ID = "Sever Soul";
-    public static final int COST = 2;
-    public static final int BASE_MAGIC = 2;
-    public static final int UPG_MAGIC = 4;
-    public static final int BASE_DMG = 16;
-    public static final int UPG_DMG = 4;
+  public static final String ID = "Sever Soul";
+  public static final int COST = 2;
+  public static final int BASE_MAGIC = 2;
+  public static final int UPG_MAGIC = 4;
+  public static final int BASE_DMG = 16;
+  public static final int UPG_DMG = 4;
 
-    private final static CardInfo cardInfo = new CardInfo(
-      ID, 
-      COST, 
-      CardType.ATTACK, 
-      CardTarget.ENEMY, 
-      CardRarity.UNCOMMON, 
-      CardColor.RED
-    );
+  private final static CardInfo cardInfo = new CardInfo(
+    ID, 
+    COST, 
+    CardType.ATTACK, 
+    CardTarget.ENEMY, 
+    CardRarity.UNCOMMON, 
+    CardColor.RED
+  );
   
   public SeverSoul() {
     super(cardInfo);
@@ -45,7 +45,7 @@ public class SeverSoul extends BaseCard {
     if (numExhausted > 0)
     this.isDamageModified = true;
   }
-  
+
   public void use(AbstractPlayer p, AbstractMonster m) {
     DamageInfo damageInfo = new DamageInfo((AbstractCreature)p, this.damage, this.damageTypeForTurn);
     addToBot((AbstractGameAction)new DamageAction((AbstractCreature)m, damageInfo, AbstractGameAction.AttackEffect.FIRE));
