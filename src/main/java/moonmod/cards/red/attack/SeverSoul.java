@@ -1,7 +1,9 @@
 package moonmod.cards.red.attack;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import moonmod.actions.SeverSoulAction;
@@ -14,6 +16,7 @@ public class SeverSoul extends BaseCard {
     public static final int COST = 1;
     public static final int BASE_MAGIC = 7;
     public static final int UPG_MAGIC = 3;
+    public static final int BASE_DMG = 0;
 
     private final static CardInfo cardInfo = new CardInfo(
         ID, 
@@ -26,11 +29,12 @@ public class SeverSoul extends BaseCard {
   
   public SeverSoul() {
     super(cardInfo);
+    this.setDamage(0);
     this.setMagic(BASE_MAGIC, UPG_MAGIC);
   }
   
   public void use(AbstractPlayer p, AbstractMonster m) {
-    addToBot((AbstractGameAction)new SeverSoulAction(p, m, this.magicNumber, this.damageTypeForTurn));
+    addToBot((AbstractGameAction)new SeverSoulAction(p, this, m));
   }
 
 }

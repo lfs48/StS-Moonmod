@@ -2,10 +2,12 @@ package moonmod.actions;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.ModifyDamageAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.cards.DamageInfo.DamageType;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -19,13 +21,12 @@ public class SeverSoulAction extends AbstractGameAction {
   
   private AbstractPlayer player;
   private AbstractMonster target;
-  private int damagePerCost;
-  private DamageType damageType;
+  private AbstractCard card;
   
-  public SeverSoulAction(AbstractPlayer player, AbstractMonster target, int damagePerCost, DamageType damageType) {
+  public SeverSoulAction(AbstractPlayer player, AbstractCard card, AbstractMonster target) {
     this.player = player;
+    this.card = card;
     this.target = target;
-    this.damagePerCost = damagePerCost;
     this.duration = this.startDuration = Settings.ACTION_DUR_FAST;
     this.actionType = AbstractGameAction.ActionType.EXHAUST;
   }
@@ -64,9 +65,9 @@ public class SeverSoulAction extends AbstractGameAction {
   
   private void calcAndDealDamage(AbstractCard c) {
     int damage = 0;
-    damage = c.costForTurn * damagePerCost;
-    damage = c.costForTurn * damagePerCost;
-    DamageInfo info = new DamageInfo(this.player, damage, this.damageType);
-    addToTop((AbstractGameAction)new DamageAction(this.target, info, AbstractGameAction.AttackEffect.FIRE));
+    damage = c.costForTurn * card.magicNumber;
+    DamageInfo damageInfo = new DamageInfo(this.player, damage, this.card.damageTypeForTurn);
+    damageInfo.applyPowers(this.player, this.target);
+    addToBot((AbstractGameAction)new DamageAction(this.target, damageInfo, AbstractGameAction.AttackEffect.FIRE));
   } 
 }
