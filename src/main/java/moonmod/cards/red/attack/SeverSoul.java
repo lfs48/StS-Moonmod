@@ -15,7 +15,7 @@ public class SeverSoul extends BaseCard {
   public static final String ID = "Sever Soul";
   public static final int COST = 2;
   public static final int BASE_MAGIC = 2;
-  public static final int UPG_MAGIC = 4;
+  public static final int UPG_MAGIC = 2;
   public static final int BASE_DMG = 16;
   public static final int UPG_DMG = 4;
 
