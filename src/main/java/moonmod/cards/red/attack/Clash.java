@@ -51,6 +51,7 @@ public class Clash extends BaseCard {
 
 
     public void applyPowers() {
+        super.applyPowers();
         boolean allCardsAreAttacks = true;
         for (AbstractCard c : AbstractDungeon.player.hand.group) {
             if (c.type != CardType.ATTACK) {
