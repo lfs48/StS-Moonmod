@@ -73,8 +73,8 @@
     "DESCRIPTION": "Gain !B! Block. NL If this card is Exhausted, gain NL !B! Block."
   },
   "Sever Soul": {
-    "NAME": "Soulcharged Slash",
-    "DESCRIPTION": "Exhaust 1 card. NL Deal damage equal to !M! times its cost."
+    "NAME": "Sever Soul",
+    "DESCRIPTION": "Deal !D! damage. NL Damage increased by !M! for each card Exhausted this combat."
   },
   "Sword Boomerang": {
     "NAME": "Boomerang Strike",
