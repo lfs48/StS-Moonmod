@@ -68,6 +68,10 @@
     "NAME": "Reckless Strike",
     "DESCRIPTION": "Deal !D! damage. NL Add a *Dazed into your discard pile."
   },
+  "Second Wind": {
+    "NAME": "Second Wind",
+    "DESCRIPTION": "Exhaust all non-Attack cards in your hand. Heal !M! HP for each card Exhausted. NL Exhaust."
+  },
   "Sentinel": {
     "NAME": "Sentinel",
     "DESCRIPTION": "Gain !B! Block. NL If this card is Exhausted, gain NL !B! Block."
