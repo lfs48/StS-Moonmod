@@ -1,4 +1,8 @@
 {
+  "Bane": {
+    "NAME": "Bane",
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy has Poison, apply !M! more Poison."
+  },
   "Berserk": {
     "NAME": "Berserk",
     "DESCRIPTION": "Gain !M! Strength and NL 1 Vulnerable. NL At the start of your turn, gain 1 Vulnerable."
