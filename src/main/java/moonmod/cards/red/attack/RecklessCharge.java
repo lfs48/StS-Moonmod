@@ -5,7 +5,7 @@ import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInDiscardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
-import com.megacrit.cardcrawl.cards.status.Dazed;
+import com.megacrit.cardcrawl.cards.status.Wound;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
@@ -32,12 +32,12 @@ public class RecklessCharge extends BaseCard {
     super(cardInfo);
     this.setDamage(BASE_DMG, UPG_DMG);
     this.tags.add(AbstractCard.CardTags.STRIKE);
-    this.cardsToPreview = (AbstractCard)new Dazed();
+    this.cardsToPreview = (AbstractCard)new Wound();
   }
   
   public void use(AbstractPlayer p, AbstractMonster m) {
     addToBot((AbstractGameAction)new DamageAction((AbstractCreature)m, new DamageInfo((AbstractCreature)p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_HEAVY));
-    addToBot((AbstractGameAction)new MakeTempCardInDiscardAction((AbstractCard)new Dazed(), 1));
+    addToBot((AbstractGameAction)new MakeTempCardInDiscardAction((AbstractCard)new Wound(), 1));
   }
 
 }

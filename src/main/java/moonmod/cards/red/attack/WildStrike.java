@@ -5,7 +5,7 @@ import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInDrawPileAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
-import com.megacrit.cardcrawl.cards.status.Wound;
+import com.megacrit.cardcrawl.cards.status.Dazed;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
@@ -31,11 +31,11 @@ public class WildStrike extends BaseCard {
     public WildStrike() {
         super(cardInfo);
         this.setDamage(BASE_DMG, UPG_DMG);
-        this.cardsToPreview = (AbstractCard)new Wound();
+        this.cardsToPreview = (AbstractCard)new Dazed();
     }
   
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot((AbstractGameAction)new DamageAction((AbstractCreature)m, new DamageInfo((AbstractCreature)p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_HEAVY));
-        addToBot((AbstractGameAction)new MakeTempCardInDrawPileAction((AbstractCard)new Wound(), 1, false, false, true));
+        addToBot((AbstractGameAction)new MakeTempCardInDrawPileAction((AbstractCard)new Dazed(), 1, true, false));
     }
 }
