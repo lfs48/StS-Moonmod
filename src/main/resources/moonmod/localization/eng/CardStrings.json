@@ -86,8 +86,8 @@
   },
   "Warcry": {
     "NAME": "Lead the Charge",
-    "DESCRIPTION": "Draw !M! cards. Put a *Dazed on top of your draw pile.",
-    "UPGRADE_DESCRIPTION": "Draw !M! cards. Shuffle a *Dazed into your draw pile."
+    "DESCRIPTION": "Draw !M! cards. Put a *Dazed on top of your draw pile. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Draw !M! cards. Put a *Dazed on top of your draw pile."
   },
   "Whirlwind": {
     "NAME": "Whirlwind Strike",

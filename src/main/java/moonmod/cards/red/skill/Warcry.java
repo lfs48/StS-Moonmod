@@ -35,12 +35,13 @@ public class Warcry extends BaseCard {
         super(cardInfo);
         this.setMagic(BASE_MAGIC);
         this.cardsToPreview = (AbstractCard)new Dazed();
+        this.setExhaust(true, false);
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot((AbstractGameAction)new VFXAction((AbstractCreature)p, (AbstractGameEffect)new ShockWaveEffect(p.hb.cX, p.hb.cY, Color.RED, ShockWaveEffect.ShockWaveType.ADDITIVE), 0.5F));
         addToBot((AbstractGameAction)new DrawCardAction((AbstractCreature)p, this.magicNumber));
-        addToBot((AbstractGameAction)new MakeTempCardInDrawPileAction((AbstractCard)new Dazed(), 1, this.upgraded, !this.upgraded));
+        addToBot((AbstractGameAction)new MakeTempCardInDrawPileAction((AbstractCard)new Dazed(), 1, false, true));
 
       }
 
