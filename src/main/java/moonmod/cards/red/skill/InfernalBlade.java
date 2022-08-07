@@ -5,7 +5,7 @@ import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
-import moonmod.actions.ChooseFreeCardAction;
+import moonmod.actions.common.ChooseFreeCardAction;
 import moonmod.cards.BaseCard;
 import moonmod.util.CardInfo;
 

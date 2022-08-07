@@ -4,7 +4,7 @@ import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
-import moonmod.actions.BerserkAction;
+import moonmod.actions.red.BerserkAction;
 import moonmod.cards.BaseCard;
 import moonmod.util.CardInfo;
 

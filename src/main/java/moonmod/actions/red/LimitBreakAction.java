@@ -1,4 +1,4 @@
-package moonmod.actions;
+package moonmod.actions.red;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
