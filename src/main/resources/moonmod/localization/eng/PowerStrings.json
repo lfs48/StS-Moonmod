@@ -6,6 +6,13 @@
       " #yVulnerable."
     ]
   },
+  "Choked": {
+    "NAME": "Choked",
+    "DESCRIPTIONS": [
+      "Whenever you play a card, loses #b",
+      " HP."
+    ]
+  },
   "CorruptionV2": {
     "NAME": "Corruption",
     "DESCRIPTIONS": [

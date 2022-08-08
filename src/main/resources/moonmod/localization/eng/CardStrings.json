@@ -12,6 +12,10 @@
     "DESCRIPTION": "Lose 2 HP. NL Gain [R] [R].",
     "UPGRADE_DESCRIPTION": "Lose 2 HP. NL Gain [R] [R] [R]."
   },
+  "Choke": {
+    "NAME": "Choke",
+    "DESCRIPTION": "Deal !D! damage. NL Whenever you play a card, the enemy loses !M! HP."
+  },
   "Clash": {
     "NAME": "Clash",
     "DESCRIPTION": "Costs 0 if all cards in your hand are Attacks. NL Deal !D! damage."
