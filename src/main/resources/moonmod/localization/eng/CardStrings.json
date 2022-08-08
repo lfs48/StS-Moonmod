@@ -51,6 +51,11 @@
     "NAME": "Dropkick",
     "DESCRIPTION": "Deal !D! damage. NL If the enemy has Vulnerable, NL gain [R] and NL draw 1 card."
   },
+  "Flying Knee": {
+    "NAME": "Flying Knee",
+    "DESCRIPTION": "Deal !D! damage. NL Next turn, gain [G].",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Next turn, gain [G] [G]."
+  },
   "Havoc": {
     "NAME": "Havoc",
     "DESCRIPTION": "Play the top card from your discard pile and Exhaust it."
