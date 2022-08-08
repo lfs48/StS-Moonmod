@@ -27,6 +27,14 @@
       "#ySkills cost #b0. Whenever you play a #ySkill, #yExhaust it."
     ]
   },
+  "Infinite Blades": {
+    "NAME": "Infinite Blades",
+    "DESCRIPTIONS": [
+      "Whenever you play a #ySkill, add #b",
+      " #yShivs into your hand.",
+      " #yShiv into your hand."
+    ]
+  },
   "Juggernaut": {
     "NAME": "Juggernaut",
     "DESCRIPTIONS": [

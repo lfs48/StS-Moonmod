@@ -73,6 +73,11 @@
     "NAME": "Infernal Blade",
     "DESCRIPTION": "Choose 1 of 3 random attacks to add to your hand. It costs 0 this turn. NL Exhaust."
   },
+  "Infinite Blades": {
+    "NAME": "Infinite Blades",
+    "DESCRIPTION": "Whenever you play a Skill, add a *Shiv into your hand.",
+    "UPGRADE_DESCRIPTION": "Add a *Shiv into your hand. NL Whenever you play a Skill, add a *Shiv into your hand."
+  },
   "Intimidate": {
     "NAME": "Intimidate",
     "DESCRIPTION": "ALL enemies lose !M! Strength for 1 turn. NL Apply !M! Weak to ALL enemies. NL Exhaust."
