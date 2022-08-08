@@ -29,6 +29,10 @@
     "NAME": "Cleaving Strike",
     "DESCRIPTION": "Deal !D! damage to ALL enemies."
   },
+  "Concentrate": {
+    "NAME": "Concentrate",
+    "DESCRIPTION": "Discard up to !M! cards. NL For each card, gain [G]."
+  },
   "Corruption": {
     "NAME": "Corruption",
     "DESCRIPTION": "At the start of your turn, Exhaust a card and gain [R].",
