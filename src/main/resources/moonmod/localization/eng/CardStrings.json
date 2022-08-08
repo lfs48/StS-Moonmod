@@ -12,6 +12,11 @@
     "DESCRIPTION": "Lose 2 HP. NL Gain [R] [R].",
     "UPGRADE_DESCRIPTION": "Lose 2 HP. NL Gain [R] [R] [R]."
   },
+  "Calculated Gamble": {
+    "NAME": "Calculated Gamble",
+    "DESCRIPTION": "Discard your hand, NL then draw that many cards. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Discard your hand, NL then draw that many cards plus 1. NL Exhaust."
+  },
   "Choke": {
     "NAME": "Choke",
     "DESCRIPTION": "Deal !D! damage. NL Whenever you play a card, the enemy loses !M! HP."
