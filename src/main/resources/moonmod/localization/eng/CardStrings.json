@@ -47,6 +47,10 @@
     "DESCRIPTION": "Ethereal. NL Skills cost 0. NL Whenever you play a Skill, Exhaust it.",
     "UPGRADE_DESCRIPTION": "Skills cost 0. NL Whenever you play a Skill, Exhaust it."
   },
+  "Distraction": {
+    "NAME": "Distraction",
+    "DESCRIPTION": "Choose 1 of 3 random Skills to add into your hand. NL It costs 0 this turn. NL Exhaust."
+  },
   "Dropkick": {
     "NAME": "Dropkick",
     "DESCRIPTION": "Deal !D! damage. NL If the enemy has Vulnerable, NL gain [R] and NL draw 1 card."
