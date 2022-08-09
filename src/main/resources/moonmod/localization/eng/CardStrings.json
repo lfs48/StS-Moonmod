@@ -51,6 +51,10 @@
     "NAME": "Dropkick",
     "DESCRIPTION": "Deal !D! damage. NL If the enemy has Vulnerable, NL gain [R] and NL draw 1 card."
   },
+  "Escape Plan": {
+    "NAME": "Find the Path",
+    "DESCRIPTION": "Draw 1 card. NL If you draw a Skill, gain !B! Block and repeat up to !M! times."
+  },
   "Flying Knee": {
     "NAME": "Flying Knee",
     "DESCRIPTION": "Deal !D! damage. NL Next turn, gain [G].",
