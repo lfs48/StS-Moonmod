@@ -91,6 +91,10 @@
     "DESCRIPTION": "Double your Strength. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Triple your Strength. NL Exhaust."
   },
+  "Quick Slash": {
+    "NAME": "Quick Slash",
+    "DESCRIPTION": "Deal !D! damage. NL Draw 1 card. It costs 1 less this turn."
+  },
   "Rampage": {
     "NAME": "Rampage",
     "DESCRIPTION": "Deal !D! damage. NL Increase this damage by !M! this combat. NL Increases by more each time it's used."
