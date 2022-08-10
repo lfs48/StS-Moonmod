@@ -1,7 +1,7 @@
 {
   "Bane": {
     "NAME": "Bane",
-    "DESCRIPTION": "Deal !D! damage. NL If the enemy has Poison, apply !M! more Poison."
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy has Poison, apply !M! more."
   },
   "Berserk": {
     "NAME": "Berserk",
