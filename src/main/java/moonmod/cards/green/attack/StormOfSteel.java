@@ -1,14 +1,9 @@
 package moonmod.cards.green.attack;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.animations.VFXAction;
-import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
-import com.megacrit.cardcrawl.actions.utility.SFXAction;
 import com.megacrit.cardcrawl.cards.tempCards.Shiv;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
-import com.megacrit.cardcrawl.vfx.combat.CleaveEffect;
 
 import moonmod.actions.green.StormOfSteelAction;
 import moonmod.cards.BaseCard;
@@ -40,10 +35,7 @@ public class StormOfSteel extends BaseCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot((AbstractGameAction)new SFXAction("ATTACK_WHIRLWIND"));
-        addToBot((AbstractGameAction)new VFXAction(p, (AbstractGameEffect)new CleaveEffect(), 0.0F));
-        addToBot((AbstractGameAction)new DamageAllEnemiesAction(p, this.multiDamage, this.damageTypeForTurn, AbstractGameAction.AttackEffect.NONE));
-        addToBot((AbstractGameAction) new StormOfSteelAction(this.magicNumber));
+        addToBot((AbstractGameAction) new StormOfSteelAction(this));
     }
 
 }
