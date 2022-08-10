@@ -64,6 +64,10 @@
     "DESCRIPTION": "Deal !D! damage. NL Next turn, gain [G].",
     "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Next turn, gain [G] [G]."
   },
+  "Glass Knife": {
+    "NAME": "Glass Knife",
+    "DESCRIPTION": "Deal !D! damage twice. Decrease the damage of this card by !M! this combat."
+  },
   "Havoc": {
     "NAME": "Havoc",
     "DESCRIPTION": "Play the top card from your discard pile and Exhaust it."
