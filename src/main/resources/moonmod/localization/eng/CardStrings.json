@@ -103,6 +103,10 @@
     "DESCRIPTION": "Double your Strength. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Triple your Strength. NL Exhaust."
   },
+  "Masterful Stab": {
+    "NAME": "Precise Stabs",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Affected by Dexterity instead of Strength."
+  },
   "Quick Slash": {
     "NAME": "Quick Slash",
     "DESCRIPTION": "Deal !D! damage. NL Draw 1 card. It costs 1 less this turn."
