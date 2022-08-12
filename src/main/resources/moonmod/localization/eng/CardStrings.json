@@ -139,6 +139,10 @@
     "NAME": "Boomerang Strike",
     "DESCRIPTION": "Deal !D! damage to a random enemy !M! times."
   },
+  "Unload": {
+    "NAME": "Unload",
+    "DESCRIPTION": "Discard all but 1 card. NL Deal !D! damage for each card discarded."
+  },
   "Warcry": {
     "NAME": "Lead the Charge",
     "DESCRIPTION": "Draw !M! cards. Put a *Dazed on top of your draw pile. NL Exhaust.",
