@@ -113,7 +113,7 @@
   },
   "Quick Slash": {
     "NAME": "Quick Slash",
-    "DESCRIPTION": "Deal !D! damage. NL Draw 1 card. It costs 1 less this turn."
+    "DESCRIPTION": "Deal !D! damage. NL Draw 1 card. It costs 1 less [G] this turn."
   },
   "Rampage": {
     "NAME": "Rampage",
