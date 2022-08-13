@@ -139,6 +139,10 @@
     "NAME": "Boomerang Strike",
     "DESCRIPTION": "Deal !D! damage to a random enemy !M! times."
   },
+  "Tactician": {
+    "NAME": "Tactician",
+    "DESCRIPTION": "Gain [G] for every !M! cards in your discard pile."
+  },
   "Unload": {
     "NAME": "Unload",
     "DESCRIPTION": "Discard all but 1 card. NL Deal !D! damage for each card discarded."
