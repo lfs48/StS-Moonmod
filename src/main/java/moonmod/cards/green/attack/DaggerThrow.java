@@ -18,7 +18,7 @@ public class DaggerThrow extends BaseCard {
 
     public static final String ID = "Dagger Throw";
     public static final int COST = 1;
-    public static final int BASE_DMG = 11;
+    public static final int BASE_DMG = 10;
     public static final int UPG_DMG = 4;
 
     private final static CardInfo cardInfo = new CardInfo(
