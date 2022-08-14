@@ -111,6 +111,10 @@
     "NAME": "Precise Stabs",
     "DESCRIPTION": "Deal !D! damage !M! times. NL Affected by Dexterity instead of Strength."
   },
+  "Outmaneuver": {
+    "NAME": "Eliminate",
+    "DESCRIPTION": "Deal !D! damage. NL If this kills an enemy, refill your Energy."
+  },
   "Quick Slash": {
     "NAME": "Quick Slash",
     "DESCRIPTION": "Deal !D! damage. NL Draw 1 card. It costs 1 less [G] this turn."
