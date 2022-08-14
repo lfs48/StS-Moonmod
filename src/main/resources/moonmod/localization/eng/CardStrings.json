@@ -91,8 +91,7 @@
   },
   "Infinite Blades": {
     "NAME": "Infinite Blades",
-    "DESCRIPTION": "Whenever you play a Skill, add a *Shiv into your hand.",
-    "UPGRADE_DESCRIPTION": "Add a *Shiv into your hand. NL Whenever you play a Skill, add a *Shiv into your hand."
+    "DESCRIPTION": "Whenever you play a Skill, add a *Shiv into your hand."
   },
   "Intimidate": {
     "NAME": "Intimidate",
