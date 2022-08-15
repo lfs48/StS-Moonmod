@@ -11,6 +11,8 @@ public class QuickSlashAction extends AbstractGameAction {
     private AbstractPlayer p = AbstractDungeon.player;
   
     public void update() {
+        if (p.drawPile.isEmpty())
+            p.drawPile.shuffle();
         AbstractCard c = p.drawPile.getTopCard();
         addToTop((AbstractGameAction)new DrawCardAction((AbstractCreature)p, 1));
         c.setCostForTurn(c.costForTurn - 1);
