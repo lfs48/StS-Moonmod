@@ -17,9 +17,9 @@ public class Choke extends BaseCard {
 
     public static final String ID = "Choke";
     public static final int COST = 2;
-    public static final int BASE_DMG = 12;
+    public static final int BASE_DMG = 10;
     public static final int UPG_DMG = 2;
-    public static final int BASE_MAGIC = 1;
+    public static final int BASE_MAGIC = 2;
     public static final int UPG_MAGIC = 1;
 
     private final static CardInfo cardInfo = new CardInfo(
