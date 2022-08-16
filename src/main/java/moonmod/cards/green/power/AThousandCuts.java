@@ -14,8 +14,8 @@ import moonmod.util.CardInfo;
 public class AThousandCuts extends BaseCard {
 
     public static final String ID = "A Thousand Cuts";
-    public static final int COST = 2;
-    public static final int BASE_MAGIC = 2;
+    public static final int COST = 1;
+    public static final int BASE_MAGIC = 1;
     public static final int UPG_MAGIC = 1;
 
     private final static CardInfo cardInfo = new CardInfo(
@@ -23,7 +23,7 @@ public class AThousandCuts extends BaseCard {
         COST, 
         CardType.POWER, 
         CardTarget.SELF, 
-        CardRarity.RARE, 
+        CardRarity.UNCOMMON, 
         CardColor.GREEN
     );
   
