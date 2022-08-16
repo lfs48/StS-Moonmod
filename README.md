@@ -127,6 +127,10 @@
 
 - Upgrade now increases cards drawn by 1 instead of removing exhaust.
 
+#### Catalyst
+
+- Rarity increased to Rare.
+
 #### Choke
 
 - Base damage lowered from 12 to 10(12).
