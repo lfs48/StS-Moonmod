@@ -68,6 +68,10 @@
     "NAME": "Glass Knife",
     "DESCRIPTION": "Deal !D! damage twice. Decrease the damage of this card by !M! this combat."
   },
+  "Grand Finale": {
+    "NAME": "Grand Finale",
+    "DESCRIPTION": "Can only be played if there are no other cards in your hand. NL Deal !D! damage to ALL enemies."
+  },
   "Havoc": {
     "NAME": "Havoc",
     "DESCRIPTION": "Play the top card from your discard pile and Exhaust it."
