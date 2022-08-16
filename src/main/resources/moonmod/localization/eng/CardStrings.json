@@ -63,6 +63,15 @@
     "NAME": "Find the Path",
     "DESCRIPTION": "Draw 1 card. NL If you draw a Skill, gain !B! Block and repeat up to !M! times."
   },
+  "Flechettes": {
+    "NAME": "Flechettes",
+    "DESCRIPTION": "Deal !D! damage. NL Hits an additional time for each Skill in your hand.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (You have ",
+      " Skill).",
+      " Skills)."
+    ]
+  },
   "Flying Knee": {
     "NAME": "Flying Knee",
     "DESCRIPTION": "Deal !D! damage. NL Next turn, gain [G].",
