@@ -2,12 +2,13 @@ package moonmod.cards.green.attack;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
-import moonmod.actions.green.QuickSlashAction;
+import moonmod.actions.common.DiscountDrawnCardsAction;
 import moonmod.cards.BaseCard;
 import moonmod.util.CardInfo;
 
@@ -17,6 +18,8 @@ public class QuickSlash extends BaseCard {
     public static final int COST = 1;
     public static final int BASE_DMG = 5;
     public static final int UPG_DMG = 2;
+    public static final int NUM_DRAWN = 1;
+    public static final int DISCOUNT = 1;
 
     private final static CardInfo cardInfo = new CardInfo(
         ID, 
@@ -34,7 +37,7 @@ public class QuickSlash extends BaseCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot((AbstractGameAction)new DamageAction((AbstractCreature)m, new DamageInfo((AbstractCreature)p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
-        addToBot((AbstractGameAction)new QuickSlashAction());
+        addToBot((AbstractGameAction)new DrawCardAction(NUM_DRAWN, (AbstractGameAction)new DiscountDrawnCardsAction(DISCOUNT)));
       }
 
 }
