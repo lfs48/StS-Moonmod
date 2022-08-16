@@ -14,7 +14,7 @@ public class Outmaneuver extends BaseCard {
 
     public static final String ID = "Outmaneuver";
     public static final int COST = 1;
-    public static final int BASE_DMG = 8;
+    public static final int BASE_DMG = 9;
     public static final int UPG_DMG = 3;
 
     private final static CardInfo cardInfo = new CardInfo(
