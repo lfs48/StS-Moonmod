@@ -184,5 +184,9 @@
     "NAME": "Wraith Form",
     "DESCRIPTION": "Ethereal. NL Gain !M! Intangible. NL At the end of your turn, lose 1 Dexterity.",
     "UPGRADE_DESCRIPTION": "Gain !M! Intangible. NL At the end of your turn, lose 1 Dexterity."
+  },
+  "Zap": {
+    "NAME": "Zap",
+    "DESCRIPTION": "Deal !D! danmage. NL Channel !M! Lightning."
   }
 }
