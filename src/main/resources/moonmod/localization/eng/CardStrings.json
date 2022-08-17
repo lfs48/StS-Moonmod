@@ -163,6 +163,13 @@
     "NAME": "Tactician",
     "DESCRIPTION": "Gain [G] for every !M! cards in your discard pile."
   },
+  "Thunder Strike": {
+    "NAME": "Thunder Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Hits an additional time for each Lightning Channeled this combat.",
+    "EXTENDED_DESCRIPTION": [
+      " (Channeled !M! Lightning.)"
+    ]
+  },
   "Unload": {
     "NAME": "Unload",
     "DESCRIPTION": "Discard all but 1 card. NL Deal !D! damage for each card discarded."
