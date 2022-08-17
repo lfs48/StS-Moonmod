@@ -13,29 +13,25 @@ import moonmod.actions.common.LightningAttackAction;
 import moonmod.cards.BaseCard;
 import moonmod.util.CardInfo;
 
-public class Zap extends BaseCard {
+public class BallLightning extends BaseCard {
 
-    public static final String ID = "Zap";
-    public static final int COST = 0;
-    public static final int BASE_DMG = 3;
-    public static final int UPG_DMG = 2;
-    public static final int BASE_MAGIC = 1;
+    public static final String ID = "Ball Lightning";
+    public static final int COST = 1;
+    public static final int BASE_DMG = 7;
+    public static final int UPG_DMG = 3;
 
     private final static CardInfo cardInfo = new CardInfo(
         ID, 
         COST, 
         CardType.ATTACK, 
         CardTarget.ENEMY, 
-        CardRarity.BASIC, 
+        CardRarity.COMMON, 
         CardColor.BLUE
     );
   
-    public Zap() {
+    public BallLightning() {
         super(cardInfo);
         this.setDamage(BASE_DMG, UPG_DMG);
-        this.setMagic(BASE_MAGIC);
-        this.showEvokeValue = true;
-        this.showEvokeOrbCount = 1;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
