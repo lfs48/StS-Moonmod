@@ -139,6 +139,10 @@
     "NAME": "Reckless Strike",
     "DESCRIPTION": "Deal !D! damage. NL Add a *Wound into your discard pile."
   },
+  "Rip and Tear": {
+    "NAME": "Rip and Tear",
+    "DESCRIPTION": "Deal !D! damage. NL Shuffle a *Claw into your draw pile."
+  },
   "Second Wind": {
     "NAME": "Second Wind",
     "DESCRIPTION": "Exhaust all non-Attack cards in your hand. Heal !M! HP for each card Exhausted. NL Exhaust."
