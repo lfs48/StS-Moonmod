@@ -19,6 +19,7 @@ public class BallLightning extends BaseCard {
     public static final int COST = 1;
     public static final int BASE_DMG = 7;
     public static final int UPG_DMG = 3;
+    public static final int BASE_MAGIC = 1;
 
     private final static CardInfo cardInfo = new CardInfo(
         ID, 
@@ -32,6 +33,7 @@ public class BallLightning extends BaseCard {
     public BallLightning() {
         super(cardInfo);
         this.setDamage(BASE_DMG, UPG_DMG);
+        this.setMagic(BASE_MAGIC);
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
