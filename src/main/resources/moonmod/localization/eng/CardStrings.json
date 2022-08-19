@@ -155,6 +155,10 @@
     "NAME": "Sever Soul",
     "DESCRIPTION": "Deal !D! damage. NL Damage increased by !M! for each card Exhausted this combat."
   },
+  "Steam": {
+    "NAME": "Vent Steam",
+    "DESCRIPTION": "Gain !B! Block. NL  Put a card from your draw pile into your discard pile."
+  },
   "Storm of Steel": {
     "NAME": "Storm of Steel",
     "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Add !M! *Shivs into your hand for each enemy hit."

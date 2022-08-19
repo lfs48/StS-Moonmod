@@ -13,6 +13,11 @@
       "This is a key": "This is a value."
     }
   },
+  "DrawPileToDiscardAction": {
+    "TEXT": [
+      "Select a Card to Put into Your Discard Pile."
+    ]
+  },
   "KeepDiscardRestAction": {
     "TEXT": [
       "Keep"
