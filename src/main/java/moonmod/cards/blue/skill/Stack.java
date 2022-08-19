@@ -34,6 +34,11 @@ public class Stack extends BaseCard {
         if (this.upgraded)
           this.baseBlock += this.magicNumber; 
         super.applyPowers();
+        if (!this.upgraded) {
+            this.rawDescription = cardStrings.DESCRIPTION;
+        } else {
+            this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
+        } 
         this.rawDescription += cardStrings.EXTENDED_DESCRIPTION[0];
         initializeDescription();
       }
