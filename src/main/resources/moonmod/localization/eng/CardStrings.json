@@ -94,6 +94,10 @@
     "DESCRIPTION": "Deal !D! damage. NL Strength affects this card !M! times.",
     "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Strength affects this card !M! times."
   },
+  "Hologram": {
+    "NAME": "Hologram",
+    "DESCRIPTION": "{@@}Choose a card in your discard pile. NL Shuffle {!M!|@=a copy|>1=!M! copies} of that card into your draw pile."
+  },
   "Immolate": {
     "NAME": "Immolate",
     "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Add two *Burns into your discard pile."
