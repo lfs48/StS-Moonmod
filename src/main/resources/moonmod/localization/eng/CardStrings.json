@@ -114,6 +114,13 @@
     "NAME": "Juggernaut",
     "DESCRIPTION": "Whenever you gain Block, deal !M! damage to ALL enemies."
   },
+  "Leap": {
+    "NAME": "Leap",
+    "DESCRIPTION": "Gain Block equal to NL !M! + your Energy.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Gains !B! Block.)"
+    ]
+  },
   "Limit Break": {
     "NAME": "Limit Break",
     "DESCRIPTION": "Double your Strength. NL Exhaust.",
