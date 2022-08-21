@@ -120,7 +120,7 @@
   },
   "Leap": {
     "NAME": "Leap",
-    "DESCRIPTION": "Gain Block equal to NL !M! + your Energy.",
+    "DESCRIPTION": "{@@}Gain Block equal to {!M!|@=|>1=!M! times} your Energy.",
     "EXTENDED_DESCRIPTION": [
       " NL (Gains !B! Block.)"
     ]
