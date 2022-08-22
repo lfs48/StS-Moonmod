@@ -27,6 +27,14 @@
       "#ySkills cost #b0. Whenever you play a #ySkill, #yExhaust it."
     ]
   },
+  "Hello": {
+    "NAME": "Hello",
+    "DESCRIPTIONS": [
+      "At the start of your turn, add #b",
+      " random Common cards into your hand. It costs 0 this turn.",
+      " random Common card into your hand. They cost 0 this turn."
+    ]
+  },
   "Infinite Blades": {
     "NAME": "Infinite Blades",
     "DESCRIPTIONS": [

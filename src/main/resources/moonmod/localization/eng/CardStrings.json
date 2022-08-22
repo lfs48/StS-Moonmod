@@ -102,6 +102,10 @@
     "DESCRIPTION": "Deal !D! damage. NL Strength affects this card !M! times.",
     "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Strength affects this card !M! times."
   },
+  "Hello World": {
+    "NAME": "Hello World",
+    "DESCRIPTION": "{@@}At the start of your turn, add {!M!|@=a|>1=!M!} random Common {!M!|@=card|>1=cards} into your hand. NL {!M!|@=It|>1=They} cost 0 this turn."
+  },
   "Hologram": {
     "NAME": "Hologram",
     "DESCRIPTION": "{@@}Choose a card in your discard pile. NL Shuffle {!M!|@=a copy|>1=!M! copies} of that card into your draw pile."
