@@ -7,6 +7,14 @@
     "NAME": "Berserk",
     "DESCRIPTION": "Gain !M! Strength and NL 1 Vulnerable. NL At the start of your turn, gain 1 Vulnerable."
   },
+  "Blizzard": {
+    "NAME": "Blizzard",
+    "DESCRIPTION": "Deal damage equal to !M! times the number of Frost Channeled this combat to ALL enemies.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Deals !D! damage.)",
+      ""
+    ]
+  },
   "Bloodletting": {
     "NAME": "Bloodletting",
     "DESCRIPTION": "Lose 2 HP. NL Gain [R] [R].",
