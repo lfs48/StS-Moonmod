@@ -178,6 +178,10 @@
     "NAME": "Vent Steam",
     "DESCRIPTION": "Gain !B! Block. NL  Put a card from your draw pile into your discard pile."
   },
+  "Steam Power": {
+    "NAME": "Overclock",
+    "DESCRIPTION": "{@@}Draw !M! {!M!|@=card|>1=cards}. NL Put the top 4 cards of your draw pile into your discard pile."
+  },
   "Storm of Steel": {
     "NAME": "Storm of Steel",
     "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Add !M! *Shivs into your hand for each enemy hit."
