@@ -38,7 +38,7 @@ public class Leap extends BaseCard {
     }
 
     public void applyPowers() {
-        this.baseBlock = this.magicNumber * (EnergyPanel.totalCount - this.costForTurn);
+        this.baseBlock = this.magicNumber * ( EnergyPanel.totalCount - Math.max(0, this.costForTurn) );
         super.applyPowers();
         this.rawDescription = cardStrings.DESCRIPTION + cardStrings.EXTENDED_DESCRIPTION[0];
         initializeDescription();
