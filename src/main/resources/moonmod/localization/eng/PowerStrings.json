@@ -6,6 +6,14 @@
       " #yVulnerable."
     ]
   },
+  "Buffer": {
+    "NAME": "Buffer",
+    "DESCRIPTIONS": [
+      "Prevent the next time you would take 10 or more unblocked damage.",
+      "Prevent the next #b",
+      " times you would take 10 or more unblocked damage."
+    ]
+  },
   "Choked": {
     "NAME": "Choked",
     "DESCRIPTIONS": [

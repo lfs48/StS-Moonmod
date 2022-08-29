@@ -20,6 +20,10 @@
     "DESCRIPTION": "Lose 2 HP. NL Gain [R] [R].",
     "UPGRADE_DESCRIPTION": "Lose 2 HP. NL Gain [R] [R] [R]."
   },
+  "Buffer": {
+    "NAME": "Buffer",
+    "DESCRIPTION": "{@@}Prevent the next {!M!|@=time|>1=!M! times} you would take 10 or more unblocked damage."
+  },
   "Calculated Gamble": {
     "NAME": "Calculated Gamble",
     "DESCRIPTION": "Discard your hand, NL then draw that many cards. NL Exhaust.",
