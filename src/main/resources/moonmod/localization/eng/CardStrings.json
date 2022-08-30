@@ -166,6 +166,10 @@
     "NAME": "Reckless Strike",
     "DESCRIPTION": "Deal !D! damage. NL Add a *Wound into your discard pile."
   },
+  "Reprogram": {
+    "NAME": "Reprogram",
+    "DESCRIPTION": "Lose 1 Focus. NL Gain !M! Strength. NL Gain !M! Dexterity."
+  },
   "Second Wind": {
     "NAME": "Second Wind",
     "DESCRIPTION": "Exhaust all non-Attack cards in your hand. Heal !M! HP for each card Exhausted. NL Exhaust."
