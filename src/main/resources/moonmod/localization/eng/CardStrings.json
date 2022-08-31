@@ -22,7 +22,7 @@
   },
   "Buffer": {
     "NAME": "Buffer",
-    "DESCRIPTION": "{@@}Prevent the next {!M!|@=time|>1=!M! times} you would take 10 or more unblocked damage."
+    "DESCRIPTION": "{@@}Prevent the next {!M!|@=time|>1=!M! times} you would take damage."
   },
   "Calculated Gamble": {
     "NAME": "Calculated Gamble",

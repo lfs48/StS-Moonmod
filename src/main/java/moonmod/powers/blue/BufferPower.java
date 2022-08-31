@@ -28,7 +28,7 @@ public class BufferPower extends BasePower {
   }
   
   public int onAttackedToChangeDamage(DamageInfo info, int damageAmount) {
-    if (info.type != DamageType.HP_LOSS && damageAmount >= 10) {
+    if (info.type != DamageType.HP_LOSS && damageAmount >= 1) {
         flash();
         addToTop((AbstractGameAction)new ReducePowerAction(this.owner, this.owner, this.ID, 1)); 
         return 0;

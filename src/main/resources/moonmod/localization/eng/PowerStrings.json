@@ -9,9 +9,9 @@
   "Buffer": {
     "NAME": "Buffer",
     "DESCRIPTIONS": [
-      "Prevent the next time you would take 10 or more unblocked damage.",
+      "Prevent the next time you would take damage.",
       "Prevent the next #b",
-      " times you would take 10 or more unblocked damage."
+      " times you would take damage."
     ]
   },
   "Choked": {
