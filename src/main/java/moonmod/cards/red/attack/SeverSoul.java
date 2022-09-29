@@ -38,7 +38,7 @@ public class SeverSoul extends BaseCard {
     int numExhausted = AbstractDungeon.player.exhaustPile.size();
     int damage = BASE_DMG;
     if (this.upgraded)
-      damage = UPG_DMG;
+      damage += UPG_DMG;
     damage += this.magicNumber * numExhausted;
     this.baseDamage = damage;
     super.applyPowers();
