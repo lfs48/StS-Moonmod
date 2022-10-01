@@ -25,6 +25,7 @@ public class Catalyst extends BaseCard {
   
     public Catalyst() {
         super(cardInfo);
+        setExhaust(true);
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
