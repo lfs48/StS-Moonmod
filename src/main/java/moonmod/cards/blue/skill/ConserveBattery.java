@@ -11,9 +11,7 @@ import com.megacrit.cardcrawl.orbs.Lightning;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.ConservePower;
 
-import moonmod.actions.blue.HologramAction;
 import moonmod.cards.BaseCard;
-import moonmod.powers.blue.BatteryPower;
 import moonmod.util.CardInfo;
 
 public class ConserveBattery extends BaseCard {
