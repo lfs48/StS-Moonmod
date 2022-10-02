@@ -45,6 +45,10 @@
     "NAME": "Concentrate",
     "DESCRIPTION": "Discard up to !M! cards. NL For each card, gain [G]."
   },
+  "Conserve Battery": {
+    "NAME": "Charge Battery",
+    "DESCRIPTION": "{@@}Energy is conserved for !M! {!M!|@=turn|>1=turns}. NL Channel 1 Lightning."
+  },
   "Corruption": {
     "NAME": "Corruption",
     "DESCRIPTION": "At the start of your turn, Exhaust a card and gain [R].",
